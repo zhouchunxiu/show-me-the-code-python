@@ -25,4 +25,5 @@ def print_res(dict):
 
 
 if __name__ == "__main__":
-    count_words(os.path.join(os.getcwd(), "file"))
+    file = os.path.join(os.getcwd(), "file")
+    count_words(file)
